@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("docker.io/satishchennu1/nodeapp")
+        app = docker.build("docker.io/schennu4/nodeapp")
     }
 
     stage('Test image') {
